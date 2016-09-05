@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link  rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+<div class="col-xs-4"><h2> NEW USER</h2>
+<div id="userForm">
+<form name ="user" id="user">
+     <div class="form-group" id="userIdField">
+        <label>UserID : </label>
+        <input type="text" name="userID" id="userId" class="form-control" value = "" placeholder="UserId" readOnly>
+    </div>
+
+    <div class="form-group">
+        <label>Name : </label>
+        <input type="text" name="name" id="name" class="form-control" value ="" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+        <label>Lastname : </label>
+        <input type="text" name="lastName" id="lastName" class="form-control" value =""  placeholder="Enter lastname">
+    </div>
+    <div class="form-group">
+        <label>Email : </label>
+        <input type="email" name="email" id="email" class="form-control" value =""  placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label>Phone Number : </label>
+        <input type="tel" name="tel" id="tel" class="form-control" value =""  placeholder="Enter phone number">
+    </div>
+    <div class="btn-group">
+         <input id="cancel-btn" type="button" name="submit" value ="Cancel" class="btn-primary" />
+        <input id="send-btn" type="button" name="submit" value ="Create" class="btn-success" />
+        <input id="update-btn" type="button" name="submit" value ="Update" class="btn-success" />
+    </div>
+</form>
+</div>
+<div><div id="alert_placeholder" class="alert alert-success"></div></div>
+</div>
+    </body>
+    
+	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/user.js"></script>
+</html>
